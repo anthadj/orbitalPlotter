@@ -3,14 +3,16 @@ This project consists of two parts. First, a bash script that takes information 
 Secondly, a mathematica script that inputs information from the .csv file to plot the orbital in question.
 
 # Directory content:
-- src:     1. moldenscriptAtom.sh 
-           2. moldenscriptMolecule.sh
-           3. ijkVals (directory)
-           4. construct_wavefunction.nb
+src:
+- moldenscriptAtom.sh 
+- moldenscriptMolecule.sh
+- ijkVals (directory)
+- construct_wavefunction.nb
 
-- inputs:  1. h_1.molden 
-           2. c_222.molden
-           3. ch4_22222.molden
+inputs:  
+- h_1.molden
+- c_222.molden
+- ch4_22222.molden
 
 The src folder: 
 Contains the two bash scripts "moldenscriptAtom.sh" and "moldenscriptMolecule.sh".
