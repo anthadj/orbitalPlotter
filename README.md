@@ -2,8 +2,8 @@
 This project consists of two parts. First, a bash script that takes information about atomic and molecular orbitals from .molden files and stores them in a .csv file format. 
 Secondly, a mathematica script that inputs information from the .csv file to plot the orbital in question.
 
-#Directory content:
-- src:     1. moldenscriptAtom.sh
+# Directory content:
+- src:     1. moldenscriptAtom.sh 
            2. moldenscriptMolecule.sh
            3. ijkVals (directory)
            4. construct_wavefunction.nb
@@ -26,7 +26,7 @@ The numbers represent electrons in orbitals. Hydrogen only has 1 electron, whule
 in 3 different orbitals. Methane (ch4) has 10 electrons in 10 orbitals. In here, place any .molden files 
 you wish to analyse
 
-#How to run the script:
+# How to run the script:
 For atoms:
 Let's assume you wish to plot the first orbital of a carbon atom. Run the following command from withtin the src folder
 "zsh moldenscriptAtom.sh ../inputs/h_1.molden"
